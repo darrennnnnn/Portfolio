@@ -27,7 +27,7 @@ export default function Projects({ projects }: Readonly<ProjectsProps>) {
             <h2 className="font-semibold text-2xl my-6 text-center text-blue-300">
                 Projects
             </h2>
-            <div className="flex flex-col gap-6 overflow-hidden">
+            <div className="flex flex-col gap-6 overflow-hidden p-4">
                 {projects.map((project) => (
                     <ProjectCard key={project.id} project={project} />
                 ))}
@@ -40,7 +40,7 @@ function ProjectCard({ project }: Readonly<{ project: Project }>) {
     const { title, description, techStack, image, webLink, githubLink } =
         project;
     return (
-        <div className="border border-blue-700 p-2 rounded-md flex flex-col md:flex-row gap-4 shadow-md hover:scale-105 hover:cursor-pointer transition bg-gray-800">
+        <div className="border border-blue-700 p-2 rounded-md flex flex-col md:flex-row gap-4 shadow-md hover:scale-[101%] hover:cursor-pointer transition bg-gray-800">
             <div className="flex-shrink-0 w-full md:w-1/3 lg:w-1/4">
                 <Image
                     src={image}
