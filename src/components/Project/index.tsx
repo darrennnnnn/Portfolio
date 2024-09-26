@@ -27,7 +27,7 @@ export default function Projects({ projects }: Readonly<ProjectsProps>) {
             <h2 className="font-semibold text-2xl my-6 text-center text-blue-300">
                 Projects
             </h2>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6 overflow-hidden">
                 {projects.map((project) => (
                     <ProjectCard key={project.id} project={project} />
                 ))}
