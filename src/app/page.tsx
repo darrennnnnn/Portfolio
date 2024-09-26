@@ -6,7 +6,7 @@ import { techStack } from "@/lib/tech";
 
 export default function Home() {
     return (
-        <div className="min-h-screen w-full p-4 lg:flex max-w-screen-2xl mx-auto bg-gray-900 text-gray-100">
+        <div className="max-h-screen w-full p-4 lg:flex max-w-screen-2xl mx-auto bg-gray-900 text-gray-100">
             <div className="lg:w-1/2 xl:w-1/3 lg:h-full lg:p-20">
                 <Header />
                 <p className="text-md text-justify text-gray-300 mt-4">
