@@ -3,7 +3,7 @@ import stressThumbnail from "../../public/images/stress_detection/stress-detecti
 import pokedexThumbnail from "../../public/images/pokedex/pokedex.png";
 import emotionThumbnail from "../../public/images/emotion_classification/research_methodology.png";
 import spamThumbnail from "../../public/images/spam_email_detector/spam-email-detector.png";
-import nutrizenThumbnail from "../../public/images/nutrizen/nutrizen.png";
+import nutrizenThumbnail from "../../public/images/nutrizen/Nutrizen.png";
 
 export const projects = [
     {
