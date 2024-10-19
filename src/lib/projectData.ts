@@ -3,10 +3,27 @@ import stressThumbnail from "../../public/images/stress_detection/stress-detecti
 import pokedexThumbnail from "../../public/images/pokedex/pokedex.png";
 import emotionThumbnail from "../../public/images/emotion_classification/research_methodology.png";
 import spamThumbnail from "../../public/images/spam_email_detector/spam-email-detector.png";
+import nutrizenThumbnail from "../../public/images/nutrizen/nutrizen.png";
 
 export const projects = [
     {
         id: 1,
+        title: "Nutrizen",
+        description:
+            "A web app that estimates meal nutrient counts using an external API and incorporates gamification to encourage consistent calorie tracking and healthier eating habits.",
+        techStack: [
+            "NextJS",
+            "Tailwind CSS",
+            "Typescript",
+            "Prisma",
+            "PostgreSQL",
+        ],
+        image: nutrizenThumbnail,
+
+        githubLink: "https://github.com/darrennnnnn/Nutrizen",
+    },
+    {
+        id: 2,
         title: "NontonSkuy",
         description:
             "A web application that allows users to search for movies and TV shows, and view its details.",
@@ -16,7 +33,7 @@ export const projects = [
         githubLink: "https://github.com/darrennnnnn/nontonskuy",
     },
     {
-        id: 2,
+        id: 3,
         title: "Stress Detection",
         description:
             "A web application that detects stress inside a sentence using machine learning.",
@@ -26,7 +43,7 @@ export const projects = [
         githubLink: "https://github.com/darrennnnnn/stress-detection",
     },
     {
-        id: 3,
+        id: 4,
         title: "Pokedex",
         description:
             "A web application that allows users to search for Pokemon and view its details.",
@@ -36,7 +53,7 @@ export const projects = [
         githubLink: "https://github.com/darrennnnnn/pokedex",
     },
     {
-        id: 4,
+        id: 5,
         title: "Emotion Classification Model",
         description:
             "A machine learning model that classifies the emotion of a sentence.",
@@ -45,7 +62,7 @@ export const projects = [
         githubLink: "https://github.com/darrennnnnn/research_methodology",
     },
     {
-        id: 5,
+        id: 6,
         title: "Spam Email Detector",
         description:
             "A machine learning model that classifies whether an email is spam or not.",
