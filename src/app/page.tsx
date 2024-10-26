@@ -1,13 +1,13 @@
 import ProjectCard from "@/components/ProjectCard";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import Marquee from "react-fast-marquee";
-import Image from "next/image";
-import HTML from "../../public/images/html.png";
-import css from "../../public/images/css-3.svg";
-import typescript from "../../public/images/typescript.svg";
-import javascript from "../../public/images/logo-javascript.svg";
-import react from "../../public/images/React.webp";
-import next from "../../public/images/next-js.svg";
+// import Marquee from "react-fast-marquee";
+// import Image from "next/image";
+// import HTML from "../../public/images/html.png";
+// import css from "../../public/images/css-3.svg";
+// import typescript from "../../public/images/typescript.svg";
+// import javascript from "../../public/images/logo-javascript.svg";
+// import react from "../../public/images/React.webp";
+// import next from "../../public/images/next-js.svg";
 
 export default function Home() {
     return (
