@@ -135,8 +135,8 @@ export default function Home() {
                         githubLink="https://github.com/darrennnnnn/nontonskuy"
                     />
                     <ProjectCard
-                        title="Stress Detection"
-                        description="A web application that uses TMDb API that allows users to search for movies and TV shows, and view its details."
+                        title="Stress Detection Website"
+                        description="A website that uses a machine learning model trained using a dataset of tweets to classify whether a tweet is stressful or not."
                         techStack={[
                             "nextjs",
                             "tailwind",

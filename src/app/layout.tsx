@@ -18,7 +18,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${space.className} flex flex-col items-center justify-center bg-gradient-to-r from-slate-200 via-white to-slate-200`}
+                className={`${space.className} flex flex-col items-center justify-center `}
             >
                 <Header />
                 {children}
