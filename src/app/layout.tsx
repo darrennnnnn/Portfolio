@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Roboto_Mono } from "next/font/google";
 import Header from "@/components/Header";
+import { Analytics } from "@vercel/analytics/react";
 
 const space = Roboto_Mono({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
             >
                 <Header />
                 {children}
+                <Analytics />
             </body>
         </html>
     );
