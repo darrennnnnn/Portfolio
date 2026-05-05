@@ -51,7 +51,7 @@ export default function ProjectCard({
     githubLink,
 }: Readonly<ProjectCardProps>) {
     return (
-        <div className="bg-slate-50 p-4 rounded-md flex flex-col gap-2 min-h-72">
+        <div className="bg-slate-50 p-4 rounded-md flex flex-col gap-2 min-h-72 hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
             <p className="text-lg text-slate-700 font-bold">{title}</p>
             <span className="flex gap-2 items-center">
                 {techStack?.map((item) => (
@@ -67,7 +67,7 @@ export default function ProjectCard({
                         href={webLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center text-blue-400 hover:scale-105 transition-all duration-100 hover:underline origin-left"
+                        className="flex items-center text-lime-700 hover:text-lime-800 hover:scale-105 transition-all duration-100 hover:underline origin-left"
                     >
                         <span className="mr-1">
                             <Link2 size={15} />
@@ -80,7 +80,7 @@ export default function ProjectCard({
                         href={githubLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center text-blue-400 hover:scale-105 transition-all duration-100 hover:underline origin-left"
+                        className="flex items-center text-lime-700 hover:text-lime-800 hover:scale-105 transition-all duration-100 hover:underline origin-left"
                     >
                         <span className="mr-1">
                             <Github size={15} />

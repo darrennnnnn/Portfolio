@@ -1,5 +1,6 @@
 import { Github, Link2 } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
+import React from 'react'
 
 interface Project {
     id: number;

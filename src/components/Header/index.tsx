@@ -1,18 +1,32 @@
 export default function Header() {
     return (
-        <div className="w-full flex justify-between px-4 py-1 backdrop-blur-md h-16 max-w-screen-xl items-center fixed top-0">
-            <p className="font-extrabold text-2xl">Darren Nathaneil</p>
-            {/* <div className="gap-4 flex items-center">
-                <p className="hover:scale-105 transition-all duration-100 hover:font-bold cursor-pointer">
-                    About Me
-                </p>
-                <p className="hover:scale-105 transition-all duration-100 hover:font-bold cursor-pointer">
-                    Projects
-                </p>
-                <p className="hover:scale-105 transition-all duration-100 hover:font-bold cursor-pointer">
-                    Contact
-                </p>
-            </div> */}
+        <div className="w-full h-16 fixed top-0 left-0 bg-slate-100/80 backdrop-blur-sm z-50 border-b border-slate-200">
+            <div className="h-full max-w-screen-xl mx-auto px-4 flex justify-between items-center">
+                <p className="font-extrabold text-2xl">Darren Nathaneil</p>
+                <div className="gap-4 items-center hidden md:flex text-sm text-slate-700">
+                    <a href="#about" className="hover:text-lime-700 transition-colors">
+                        About
+                    </a>
+                    <a
+                        href="#experience"
+                        className="hover:text-lime-700 transition-colors"
+                    >
+                        Experience
+                    </a>
+                    <a
+                        href="#projects"
+                        className="hover:text-lime-700 transition-colors"
+                    >
+                        Projects
+                    </a>
+                    <a
+                        href="#contact"
+                        className="hover:text-lime-700 transition-colors"
+                    >
+                        Contact
+                    </a>
+                </div>
+            </div>
         </div>
     );
 }
